@@ -1,12 +1,13 @@
 /* progress_bar */
 
 .bui-slider .bui-track.bui-track-video-progress {
-    height: 3px;
-    /* transition: all 300ms; */
+    /* height: 3.01px; */
+    height: 0.30rem;
+    transition: all 120ms;
 }
 
 .bui-slider:hover .bui-track.bui-track-video-progress {
-    height: 6px;
+    height: 0.50rem;
 }
 
 .bui-slider .bui-track.bui-track-video-progress .bui-thumb .bui-thumb-dot svg {}
@@ -28,6 +29,33 @@
     display: flex;
     -webkit-box-pack: center;
     justify-content: center;
+}
+
+.bilibili-player .bilibili-player-area .bilibili-player-video-control .bilibili-player-video-progress-detail-img {
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.4);
+    /* box-shadow: 0 0 0 3px #f25d8e; */
+}
+
+.bilibili-player .bilibili-player-area .bilibili-player-video-control .bilibili-player-video-progress-detail-time {
+    position: absolute;
+    z-index: 2;
+    left: 45%;
+    top: -100%;
+    width: auto;
+    line-height: 25px;
+    height: auto;
+    font-size: 25px;
+    background: hsla(0, 0%, 8%, 0.3);
+    /* text-shadow: 0 0 4px black; */
+    text-shadow: 0 0 2px #f25d8e;
+    border-radius: 2px;
+    color: #fff;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.bui-slider:hover .bui-track.bui-track-video-progress .bui-thumb .bui-thumb-dot {
+    transform: scale(1.25);
 }
 
 /* bottom_button */

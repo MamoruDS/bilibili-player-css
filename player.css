@@ -1,0 +1,36 @@
+.bui-slider .bui-track.bui-track-video-progress {
+    height: 3px;
+}
+
+.bui-slider .bui-track .bui-bar-wrap .bui-bar {
+    background: #f25d8e;
+}
+
+.bilibili-player-video-control-bottom-center {
+    display: none;
+}
+
+.bilibili-player .bilibili-player-area .bilibili-player-video-control-bottom-right {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.bui-button.bui-button-blue,
+.bui-button.bui-button-gray3 {
+    background-color: #f25d8e;
+}
+
+.bui-button.bui-button-blue,
+.bui-button.bui-button-gray3:hover {
+    background-color: #f25d8e;
+}
+
+.bui-switch .bui-checkbox:checked + .bui-body {
+    background: #f25d8e;
+}
+
+.bui-switch .bui-checkbox:checked + .bui-body .bui-dot {
+    color: #f25d8e;
+    fill: #f25d8e;
+}

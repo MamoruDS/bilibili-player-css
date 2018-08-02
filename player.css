@@ -131,3 +131,37 @@
 .bui-slider .bui-track .bui-thumb .bui-thumb-dot {
     background-color: #f25d8e;
 }
+
+/* active-button */
+
+.bui-select.bui-select-quality-menu .bui-select-item.bui-select-item-active {
+    color: #f25d8e;
+}
+
+.bui-radio.bui-dark .bui-radio-button .bui-radio-input:checked+.bui-radio-label {
+    background: #f25d8e;
+}
+
+/* other option */
+
+.bui-select.bui-select-quality-menu .bui-select-list {
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.4) inset;
+    border-radius: 6px;
+    transition: all 300ms;
+}
+
+.bui-select.bui-select-quality-menu .bui-select-list:hover {
+    box-shadow: 0 0 0 3px #f25d8e inset;
+}
+
+.bilibili-player-video-control .bilibili-player-video-btn-setting-panel {
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.4) inset;
+    border-radius: 6px;
+    transition: all 300ms;
+}
+
+.bilibili-player-video-control .bilibili-player-video-btn-setting-panel:hover {
+    box-shadow: 0 0 0 3px #f25d8e inset;
+}
